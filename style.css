@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(246, 225, 196);
+    display: grid;
+    justify-content: center;
+    
+}
+
+#todo-container{
+    background-color: rgb(234, 244, 244);
+    width: 370px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+#header{}
+
+#header h1{
+    font-family:cursive;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#todo-form{
+    display: flex;
+    justify-content: center;
+}
+
+#todo-form input{
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 50%;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#todo-form button{
+    background-color: rgb(239, 137, 137);
+    border: none;
+    color: white;
+    width: 50px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+
+}
+
+#todo-container h2{
+    display: flex;
+    justify-content: center;
+    font-family:cursive;
+
+}
+
+#list-container{}
+
+#todo-form button:hover{
+    background-color: rgb(233, 110, 110);
+}
+
+#list-container ul{}
+
+li{
+    border: solid black 2px;
+    list-style: none;
+    font-style: oblique;    
+    font-size: 14px;
+    font-weight: 550;
+    width: 90%;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    height: 25px;
+}
+li span{
+    margin-left:8px;
+}
+
+.edit-btn{
+    font-size: 16px;
+    margin-left: 170px;
+    cursor: pointer;
+    color: lightcoral;
+}
+
+.delete-btn{
+    font-size: 16px;
+    cursor: pointer;
+    color: lightcoral;
+
+}
+
+.completed{
+    text-decoration: line-through;
+    color: gray;
+    border: 1px solid gray;
+}
+
